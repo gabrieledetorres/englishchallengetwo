@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  @media(max-width:428px){
+
+    body{
+        background-color:#96A755;
+    }
+
+    .boxBody{
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        top:2em;
+        left:2em;
+        background-color:#F1B641;
+        width:370px;
+        height: 700px;
+        border: solid 6px;
+        border-radius: 15px;
+    }
+
+    .searchBar{
+        display: flex;
+        align-items: center;
+        background-color: #FFECC0;
+        width: 350px;
+        height:30px;
+        border-radius: 15px;
+        position:absolute;
+        top:0.2em;
+        left:0.3em;
+      }
+    
+      .searchBar img{
+        width:1rem;
+        height:1rem;
+      }
+
+      .flavo{
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 25px;
+      }
+
+      .containerBar{
+        display: flex;
+        justify-content:space-between;
+        width:320px;
+        position:relative;
+        left:0.8em;
+      }
+
+      .productImage{
+        display:flex;
+        position:relative;
+        top:40px;
+        left:80px;
+      }
+    
+      .text{
+        display: flex;
+        flex-direction: column;
+        width:85%;
+        position:absolute;
+        left:25px;
+        right:40px;
+      }
+
+      .Product{
+        display:flex;
+        justify-content:space-between;
+        position:relative;
+        top:70px;
+      }
+
+      .Description{
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        top:100px;
+      }
+
+      .title{
+        font-weight: 800;
+      }
+
+      .price{
+        font-family: 'Nanum Gothic', sans-serif;
+
+    }
+      .Checkform{
+        display:flex;
+        position:relative;
+        top:130px;
+      }
+
+      input{
+        border:none;
+      }
+
+    
+
+      .quantity{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        position:relative;
+        top:320px;
+        left:28px;
+        width:250px;
+        font-size:2rem;
+        border:solid black 2px;
+        border-radius:200px;
+        width:85%;
+        height:40px;
+       
+      }
+
+    
+      .quantity button{
+        border:none;
+        background-color:#F1B641;
+        font-size:2rem;
+      }
+
+      .cartArea{
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        top:640px;
+        left:25px;
+        width:85%;
+       
+    }
+      .cartButton{
+        border:none;
+        color:white;
+        background-color:black;
+        height:40px;
+        border-radius: 200px;
+      }
+
+  }
+ 
